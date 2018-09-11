@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Root.css';
 
+import Root from './Blocks/Top/Top';
+
 class Root extends Component {
   render() {
     return (
