@@ -5,7 +5,7 @@ class Top extends Component {
   render() {
     return (
       <div className="Top">
-        Top!        
+        Top!
       </div>
     );
   }

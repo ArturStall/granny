@@ -8,9 +8,15 @@ import Main from './Blocks/Main/Main';
 class Root extends Component {
   render() {
     return (
-      <div className="Root">
-        Hello world_bla bla!!!
-      </div>      
+      <div className = "Root" >        
+        <Top/>
+
+        <div id="wrapper">
+          <Main/>
+          <Right/>
+        </div>
+                
+      </div>
     );
   }
 }
