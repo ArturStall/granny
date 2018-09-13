@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
-import './Root.css';
 
 import Top from './Blocks/Top/Top';
 import Right from './Blocks/Right/Right';
 import Main from './Blocks/Main/Main';
+import Bottom from './Blocks/Bottom/Bottom';
 
 class Root extends Component {
   render() {
     return (
       <div className = "Root" >        
-        <Top/>
-
+        <Top />
+        
         <div id="wrapper">
-          <Main/>
-          <Right/>
+          <Main />
+          <Right />
         </div>
-                
+
+        <Bottom />
       </div>
     );
   }
