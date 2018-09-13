@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import Top from './Blocks/Top/Top';
-import Right from './Blocks/Right/Right';
 import Main from './Blocks/Main/Main';
+import Right from './Blocks/Right/Right';
 import Bottom from './Blocks/Bottom/Bottom';
 
 class Root extends Component {
