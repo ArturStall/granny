@@ -7,33 +7,28 @@ body {
 
 .Root {
   text-align: center;  
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   height: 950px;
   width: 1300px;
 }
 
-#wrapper {
-  position: relative;
+#wrapper {  
   height: 800px;
   width: 100%;
 }
 
-.Top {
-  position: relative;
+.Top {  
   background-color: aqua;
   height: 100px;
 }
 
-.Bottom {
-  position: relative;
+.Bottom {  
   background-color: blue;
   height: 50px;
   width: 100%;
 }
 
-.Main {  
-  position: relative;
+.Main {   
   background-color: darkorange;
   float: left;
   width: 70%;
@@ -41,7 +36,6 @@ body {
 }
 
 .Right {  
-  position: relative;
   background-color: forestgreen;
   float: right;
   width: 30%;
